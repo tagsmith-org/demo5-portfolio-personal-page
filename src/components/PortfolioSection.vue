@@ -1,5 +1,5 @@
 <template>
-    <section class="section-padding bg-white">
+    <section id="portfolio" class="section-padding bg-white">
         <div class="container-max">
             <!-- Section Header -->
             <div class="text-center mb-16 animate-fade-in-up">

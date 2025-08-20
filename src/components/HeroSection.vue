@@ -26,7 +26,7 @@
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button class="btn-primary">
+                    <button @click="scrollToPortfolio" class="btn-primary">
                         View My Work
                     </button>
                     <button class="btn-secondary">
@@ -39,5 +39,14 @@
 </template>
 
 <script setup lang="ts">
-// Component logic can be added here if needed
+function scrollToPortfolio() {
+    const portfolioSection = document.getElementById('portfolio')
+    
+    if (portfolioSection) {
+        portfolioSection.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+        })
+    }
+}
 </script>

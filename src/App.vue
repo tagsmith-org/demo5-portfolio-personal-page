@@ -5,6 +5,7 @@
         <SkillsSection />
         <TestimonialsSection />
         <ContactSection />
+        <DemoInfoPanel />
     </div>
 </template>
 
@@ -14,4 +15,5 @@ import PortfolioSection from './components/PortfolioSection.vue'
 import SkillsSection from './components/SkillsSection.vue'
 import TestimonialsSection from './components/TestimonialsSection.vue'
 import ContactSection from './components/ContactSection.vue'
+import DemoInfoPanel from './components/DemoInfoPanel.vue'
 </script>
